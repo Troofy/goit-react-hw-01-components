@@ -1,0 +1,51 @@
+.friend_list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 100%;
+    background: #3399ac;
+    list-style-type: none;
+    margin: 10vh auto;
+    box-shadow: 2px 2px 5px #3e496b;
+  }
+  
+  .item {
+    width: 100%;
+    height: 60px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item:hover,
+  .item:focus {
+    background: rgba(27, 28, 117, 0.2);
+  }
+  
+  .avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 2px;
+    border: 2px solid rgb(58, 211, 20);
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-size: 20px;
+  }
+  
+  .status {
+    width: 15px;
+    height: 15px;
+    background: #00ff0d;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  .status[data-status='false'] {
+    background: #fc0000;
+  }
